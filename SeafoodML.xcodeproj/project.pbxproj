@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BD0CF4A23F15044005277F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF4923F15044005277F7 /* AppDelegate.swift */; };
+		7BD0CF4C23F15044005277F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF4B23F15044005277F7 /* SceneDelegate.swift */; };
+		7BD0CF4E23F15044005277F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF4D23F15044005277F7 /* ViewController.swift */; };
+		7BD0CF5123F15044005277F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0CF4F23F15044005277F7 /* Main.storyboard */; };
+		7BD0CF5323F15053005277F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0CF5223F15053005277F7 /* Assets.xcassets */; };
+		7BD0CF5623F15053005277F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0CF5423F15053005277F7 /* LaunchScreen.storyboard */; };
+		7BD0CF6123F15053005277F7 /* SeafoodMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF6023F15053005277F7 /* SeafoodMLTests.swift */; };
+		7BD0CF6C23F15053005277F7 /* SeafoodMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF6B23F15053005277F7 /* SeafoodMLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BD0CF5D23F15053005277F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BD0CF3E23F15044005277F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BD0CF4523F15044005277F7;
+			remoteInfo = SeafoodML;
+		};
+		7BD0CF6823F15053005277F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BD0CF3E23F15044005277F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BD0CF4523F15044005277F7;
+			remoteInfo = SeafoodML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BD0CF4623F15044005277F7 /* SeafoodML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeafoodML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD0CF4923F15044005277F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BD0CF4B23F15044005277F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7BD0CF4D23F15044005277F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BD0CF5023F15044005277F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BD0CF5223F15053005277F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BD0CF5523F15053005277F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BD0CF5723F15053005277F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD0CF5C23F15053005277F7 /* SeafoodMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeafoodMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD0CF6023F15053005277F7 /* SeafoodMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodMLTests.swift; sourceTree = "<group>"; };
+		7BD0CF6223F15053005277F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD0CF6723F15053005277F7 /* SeafoodMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeafoodMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD0CF6B23F15053005277F7 /* SeafoodMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodMLUITests.swift; sourceTree = "<group>"; };
+		7BD0CF6D23F15053005277F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BD0CF4323F15044005277F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD0CF5923F15053005277F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD0CF6423F15053005277F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BD0CF3D23F15044005277F7 = {
+			isa = PBXGroup;
+			children = (
+				7BD0CF4823F15044005277F7 /* SeafoodML */,
+				7BD0CF5F23F15053005277F7 /* SeafoodMLTests */,
+				7BD0CF6A23F15053005277F7 /* SeafoodMLUITests */,
+				7BD0CF4723F15044005277F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BD0CF4723F15044005277F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BD0CF4623F15044005277F7 /* SeafoodML.app */,
+				7BD0CF5C23F15053005277F7 /* SeafoodMLTests.xctest */,
+				7BD0CF6723F15053005277F7 /* SeafoodMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BD0CF4823F15044005277F7 /* SeafoodML */ = {
+			isa = PBXGroup;
+			children = (
+				7BD0CF4923F15044005277F7 /* AppDelegate.swift */,
+				7BD0CF4B23F15044005277F7 /* SceneDelegate.swift */,
+				7BD0CF4D23F15044005277F7 /* ViewController.swift */,
+				7BD0CF4F23F15044005277F7 /* Main.storyboard */,
+				7BD0CF5223F15053005277F7 /* Assets.xcassets */,
+				7BD0CF5423F15053005277F7 /* LaunchScreen.storyboard */,
+				7BD0CF5723F15053005277F7 /* Info.plist */,
+			);
+			path = SeafoodML;
+			sourceTree = "<group>";
+		};
+		7BD0CF5F23F15053005277F7 /* SeafoodMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BD0CF6023F15053005277F7 /* SeafoodMLTests.swift */,
+				7BD0CF6223F15053005277F7 /* Info.plist */,
+			);
+			path = SeafoodMLTests;
+			sourceTree = "<group>";
+		};
+		7BD0CF6A23F15053005277F7 /* SeafoodMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BD0CF6B23F15053005277F7 /* SeafoodMLUITests.swift */,
+				7BD0CF6D23F15053005277F7 /* Info.plist */,
+			);
+			path = SeafoodMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BD0CF4523F15044005277F7 /* SeafoodML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD0CF7023F15053005277F7 /* Build configuration list for PBXNativeTarget "SeafoodML" */;
+			buildPhases = (
+				7BD0CF4223F15044005277F7 /* Sources */,
+				7BD0CF4323F15044005277F7 /* Frameworks */,
+				7BD0CF4423F15044005277F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeafoodML;
+			productName = SeafoodML;
+			productReference = 7BD0CF4623F15044005277F7 /* SeafoodML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BD0CF5B23F15053005277F7 /* SeafoodMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD0CF7323F15053005277F7 /* Build configuration list for PBXNativeTarget "SeafoodMLTests" */;
+			buildPhases = (
+				7BD0CF5823F15053005277F7 /* Sources */,
+				7BD0CF5923F15053005277F7 /* Frameworks */,
+				7BD0CF5A23F15053005277F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD0CF5E23F15053005277F7 /* PBXTargetDependency */,
+			);
+			name = SeafoodMLTests;
+			productName = SeafoodMLTests;
+			productReference = 7BD0CF5C23F15053005277F7 /* SeafoodMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BD0CF6623F15053005277F7 /* SeafoodMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD0CF7623F15053005277F7 /* Build configuration list for PBXNativeTarget "SeafoodMLUITests" */;
+			buildPhases = (
+				7BD0CF6323F15053005277F7 /* Sources */,
+				7BD0CF6423F15053005277F7 /* Frameworks */,
+				7BD0CF6523F15053005277F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD0CF6923F15053005277F7 /* PBXTargetDependency */,
+			);
+			name = SeafoodMLUITests;
+			productName = SeafoodMLUITests;
+			productReference = 7BD0CF6723F15053005277F7 /* SeafoodMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BD0CF3E23F15044005277F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Midas;
+				TargetAttributes = {
+					7BD0CF4523F15044005277F7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7BD0CF5B23F15053005277F7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7BD0CF4523F15044005277F7;
+					};
+					7BD0CF6623F15053005277F7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7BD0CF4523F15044005277F7;
+					};
+				};
+			};
+			buildConfigurationList = 7BD0CF4123F15044005277F7 /* Build configuration list for PBXProject "SeafoodML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BD0CF3D23F15044005277F7;
+			productRefGroup = 7BD0CF4723F15044005277F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BD0CF4523F15044005277F7 /* SeafoodML */,
+				7BD0CF5B23F15053005277F7 /* SeafoodMLTests */,
+				7BD0CF6623F15053005277F7 /* SeafoodMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BD0CF4423F15044005277F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD0CF5623F15053005277F7 /* LaunchScreen.storyboard in Resources */,
+				7BD0CF5323F15053005277F7 /* Assets.xcassets in Resources */,
+				7BD0CF5123F15044005277F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD0CF5A23F15053005277F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD0CF6523F15053005277F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BD0CF4223F15044005277F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD0CF4E23F15044005277F7 /* ViewController.swift in Sources */,
+				7BD0CF4A23F15044005277F7 /* AppDelegate.swift in Sources */,
+				7BD0CF4C23F15044005277F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD0CF5823F15053005277F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD0CF6123F15053005277F7 /* SeafoodMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD0CF6323F15053005277F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD0CF6C23F15053005277F7 /* SeafoodMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BD0CF5E23F15053005277F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BD0CF4523F15044005277F7 /* SeafoodML */;
+			targetProxy = 7BD0CF5D23F15053005277F7 /* PBXContainerItemProxy */;
+		};
+		7BD0CF6923F15053005277F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BD0CF4523F15044005277F7 /* SeafoodML */;
+			targetProxy = 7BD0CF6823F15053005277F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BD0CF4F23F15044005277F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BD0CF5023F15044005277F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BD0CF5423F15053005277F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BD0CF5523F15053005277F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BD0CF6E23F15053005277F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BD0CF6F23F15053005277F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BD0CF7123F15053005277F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLSS9S6T7;
+				INFOPLIST_FILE = SeafoodML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BD0CF7223F15053005277F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLSS9S6T7;
+				INFOPLIST_FILE = SeafoodML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BD0CF7423F15053005277F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLSS9S6T7;
+				INFOPLIST_FILE = SeafoodMLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeafoodML.app/SeafoodML";
+			};
+			name = Debug;
+		};
+		7BD0CF7523F15053005277F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLSS9S6T7;
+				INFOPLIST_FILE = SeafoodMLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeafoodML.app/SeafoodML";
+			};
+			name = Release;
+		};
+		7BD0CF7723F15053005277F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLSS9S6T7;
+				INFOPLIST_FILE = SeafoodMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeafoodML;
+			};
+			name = Debug;
+		};
+		7BD0CF7823F15053005277F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FMLSS9S6T7;
+				INFOPLIST_FILE = SeafoodMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeafoodML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BD0CF4123F15044005277F7 /* Build configuration list for PBXProject "SeafoodML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD0CF6E23F15053005277F7 /* Debug */,
+				7BD0CF6F23F15053005277F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD0CF7023F15053005277F7 /* Build configuration list for PBXNativeTarget "SeafoodML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD0CF7123F15053005277F7 /* Debug */,
+				7BD0CF7223F15053005277F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD0CF7323F15053005277F7 /* Build configuration list for PBXNativeTarget "SeafoodMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD0CF7423F15053005277F7 /* Debug */,
+				7BD0CF7523F15053005277F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BD0CF7623F15053005277F7 /* Build configuration list for PBXNativeTarget "SeafoodMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD0CF7723F15053005277F7 /* Debug */,
+				7BD0CF7823F15053005277F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BD0CF3E23F15044005277F7 /* Project object */;
+}
