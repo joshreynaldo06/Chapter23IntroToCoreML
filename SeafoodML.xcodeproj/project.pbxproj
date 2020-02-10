@@ -15,6 +15,7 @@
 		7BD0CF5623F15053005277F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0CF5423F15053005277F7 /* LaunchScreen.storyboard */; };
 		7BD0CF6123F15053005277F7 /* SeafoodMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF6023F15053005277F7 /* SeafoodMLTests.swift */; };
 		7BD0CF6C23F15053005277F7 /* SeafoodMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF6B23F15053005277F7 /* SeafoodMLUITests.swift */; };
+		7BD0CF7A23F15363005277F7 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CF7923F15363005277F7 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7BD0CF6723F15053005277F7 /* SeafoodMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeafoodMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD0CF6B23F15053005277F7 /* SeafoodMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodMLUITests.swift; sourceTree = "<group>"; };
 		7BD0CF6D23F15053005277F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD0CF7923F15363005277F7 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7BD0CF4823F15044005277F7 /* SeafoodML */ = {
 			isa = PBXGroup;
 			children = (
+				7BD0CF7923F15363005277F7 /* Inceptionv3.mlmodel */,
 				7BD0CF4923F15044005277F7 /* AppDelegate.swift */,
 				7BD0CF4B23F15044005277F7 /* SceneDelegate.swift */,
 				7BD0CF4D23F15044005277F7 /* ViewController.swift */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD0CF4E23F15044005277F7 /* ViewController.swift in Sources */,
+				7BD0CF7A23F15363005277F7 /* Inceptionv3.mlmodel in Sources */,
 				7BD0CF4A23F15044005277F7 /* AppDelegate.swift in Sources */,
 				7BD0CF4C23F15044005277F7 /* SceneDelegate.swift in Sources */,
 			);
@@ -444,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Co-Founder.SeafoodML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
