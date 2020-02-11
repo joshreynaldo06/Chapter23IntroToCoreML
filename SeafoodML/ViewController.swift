@@ -33,6 +33,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             guard let ciImage = CIImage(image: imageOriginal) else {
                 fatalError("Cannot convert to CI Image")
             }
+            
+            imageDetect(image: ciImage)
         }
         
         imagePicker.dismiss(animated: true, completion: nil)
@@ -50,6 +52,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }
             
             print(result)
+            
+            if let firstResult = result.first{
+                if firstResult.identifier.contains("hotdog"){
+                    self.navigationController?.title = "Hotdog!!"
+                } else {
+                    self.navigationController?.title = "Not hotdog!!"
+                }
+            }
         }
         
         let handler = VNImageRequestHandler(ciImage: image)
