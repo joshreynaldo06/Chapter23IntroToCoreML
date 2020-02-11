@@ -29,11 +29,38 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         if let imageOriginal = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
             imageView.image = imageOriginal
+            
+            guard let ciImage = CIImage(image: imageOriginal) else {
+                fatalError("Cannot convert to CI Image")
+            }
         }
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
+    func imageDetect(image: CIImage){
+        
+        guard let model = try? VNCoreMLModel(for: Inceptionv3().model) else {
+            fatalError("Error modeling CoreML")
+        }
+        
+        let request = VNCoreMLRequest(model: model) { (request, error) in
+            guard let result = request.results as? [VNClassificationObservation] else {
+                fatalError("Cannot process the image")
+            }
+            
+            print(result)
+        }
+        
+        let handler = VNImageRequestHandler(ciImage: image)
+        
+        do{
+            try handler.perform([request])
+        } catch {
+            print(error)
+        }
+        
+    }
     
     @IBAction func cameraButtonClicked(_ sender: UIBarButtonItem) {
         
